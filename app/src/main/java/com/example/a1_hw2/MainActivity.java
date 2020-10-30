@@ -67,8 +67,7 @@ public class MainActivity extends AppCompatActivity {
             if (secondNum != 0 && thirdNum != 0) {
                 sum = firstNum + secondNum / thirdNum;
                 if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
-                    Toast.makeText(MainActivity.this, "To see the result, please, " +
-                            " \nturn the screen of your smartphone", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "To see the result, please, rotate the screen to landscape", Toast.LENGTH_SHORT).show();
                 }
             }
         });
